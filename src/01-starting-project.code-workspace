@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "../../01-starting-project",
+    },
+    {
+      "path": "../../react-quiz-01-starting-project",
+    },
+    {
+      "path": "..",
+    },
+  ],
+  "settings": {
+    "javascript.validate.enable": true,
+    "typescript.validate.enable": true,
+    "editor.errorRebufferingEnabled": true,
+    "eslint.codeActionsOnSave.options": {},
+    "eslint.codeActionsOnSave.rules": null,
+    "eslint.format.enable": true,
+    "eslint.useESLintClass": true,
+  },
+}
