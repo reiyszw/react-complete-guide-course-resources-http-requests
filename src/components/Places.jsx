@@ -16,8 +16,8 @@ export default function Places({
       )}
       {!isLoading && places.length > 0 && (
         <ul className="places">
-          {places.map((place) => (
-            <li key={place.id} className="place-item">
+          {places.map((place, index) => (
+            <li key={`${index}-${place.id}`} className="place-item">
               <button onClick={() => onSelectPlace(place)}>
                 <img
                   src={`http://localhost:3000/${place.image.src}`}
